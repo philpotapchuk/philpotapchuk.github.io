@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -9,68 +9,73 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <h1>Phillip Potapchuk</h1>
-        <h2>We Can Code It</h2>
-    </header>
 
-    <section id="about">
-        <h3>About Me</h3>
-        <div class="bio">
-            <img src="https://github.com/philpotapchuk/philpotapchuk.github.io/blob/main/IMG_2F9CBC9D5AF1-1.jpeg" alt="Profile Picture">
-            <p>I am an aspiring software developer currently enrolled in a coding bootcamp and learning HTML and CSS.</p>
-        </div> 
-        <div class="contact">
-            <h4>Contact Information:</h4>
-            <ul>
-                <li>Email: philpotapchuk@yahoo.com</li>
-            </ul>
-            <h4>Professional Profiles:</h4>
-            <ul>
-                <li><a href="https://github.com/philpotapchuk/philpotapchuk.github.io.git" target="_blank">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/johndoe" target="_blank">LinkedIn</a></li>
-            </ul>
+    <div class="container">
+        <div class="nav-bar">
+            <a href="#about">About</a>
+            <a href="#projects">Project</a>
+            <a href="#contacts">Contact</a>
         </div>
-        <div class="skills">
-            <h4>Skills:</h4>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-        </div>
-    </section>
+        <h1>Professional Profile</h1>
+        <section id="about">
+            <h3>About Me</h3>
+            <div class="bio">
+                <img src="profile.jpg" alt="Profile Picture">
+                <p>I am an aspiring software developer currently enrolled in a coding bootcamp and learning HTML and
+                    CSS.
+                </p>
+            </div>
+            <div class="contact" id="contacts">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: johndoe@yahoo.com</li>
+                    <li>Phone: </li>
+                </ul>
+                <h4>Professional Profiles:</h4>
+                <ul>
+                    <li><a href="https://github.com/philpotapchuk/philpotapchuk.github.io.git"
+                            target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/johndoe" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h4>Skills:</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects">
+            <h3>Projects</h3>
+            <div class="project-container">
+                <article>
+                    <h4>Project 1</h4>
+                    <a href="https://github.com/philpotapchuk/philpotapchuk.github.io.git" target="_blank">
+                        <img src="project1-screenshot1.jpg" alt="Project 1 Screenshot">
+                    </a>
+                    <p>Skills/Technologies Used: HTML, CSS</p>
+                </article>
+                <article>
+                    <h4>Project 2</h4>
+                    <a href="https://github.com/philpotapchuk/philpotapchuk.github.io.git" target="_blank">
+                        <img src="project1-screenshot2.jpg" alt="Project 2 Screenshot">
+                    </a>
+                    <p>Skills/Technologies Used: HTML, CSS</p>
+                </article>
+                <article>
+                    <h4>Project 3</h4>
+                    <a href="https://github.com/philpotapchuk/philpotapchuk.github.io.git" target="_blank">
+                        <img src="project1-screenshot3.jpg" alt="Project 3 Screenshot">
+                    </a>
+                    <p>Skills/Technologies Used: HTML, CSS</p>
+                </article>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2023 Coding. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
 
-    <section id="projects">
-        <h3>Projects</h3>
-        <article>
-            <h4>Project 1</h4>
-            <a href="https://github.com/philpotapchuk/project1" target="_blank">
-                <img src="project1-screenshot.jpg" alt="Project 1 Screenshot">
-            </a>
-            <p>Skills/Technologies Used: HTML, CSS</p>
-        </article>
-        <article>
-            <h4>Project 2</h4>
-            <a href="https://github.com/philpotapchuk/project2" target="_blank">
-                <img src="project2-screenshot.jpg" alt="Project 2 Screenshot">
-            </a>
-            <p>Skills/Technologies Used: HTML, CSS</p>
-        </article>
-        <article>
-            <h4>Project 3</h4>
-            <a href="https://github.com/philpotapchuk/project3" target="_blank">
-                <img src="project3-screenshot.jpg" alt="Project 3 Screenshot">
-            </a>
-            <p>Skills/Technologies Used: HTML, CSS</p>
-        </article>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 We Can Code It. All rights reserved.</p>
+</html>
